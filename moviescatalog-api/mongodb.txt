@@ -1,0 +1,50 @@
+MongoDB is a popular, source-available NoSQL database program that uses a document-oriented data model. Instead of using the rows and columns found in traditional relational databases, MongoDB stores data in flexible, JSON-like documents called BSON (Binary JSON)
+======================== Connecting mongose cli =================================
+
+
+==================  CLI ====================
+Use mongosh CLI for executing Commands
+
+================== Commands ==================
+show dbs => shows all databases
+db.getName() => Current database
+use db => switch to the db
+db.collectionName.insertOne({}) => create a collection (Table)
+show collections => shows collections
+
+============ Insert data ===================
+db.students.insertOne({}) => create student collection (Table)
+student = { "name": "Ganesh", usn: 'ABC' } => Student data
+db.students.insertOne(student) => Insert student record
+
+students = 
+[
+    { "name": "Harish", usn: '123' },
+    { "name": "Harish", usn: '456' },
+] => Students  array data
+db.students.insertMany(students) => Insert student record
+
+============ Retrieve =====================
+db.students.find() => All Data
+db.students.find({"name": "Ganesh"}) => Student with the name Ganesh
+db.students.find({"name": "Harish", usn: "123"})  Student with the name of Harish & USN 123
+db.students.find({"name": "Harish"}, {"name": 1}) => Gives only name field
+db.students.find({}, {"name": 1}) => Gives name only field all documents 
+
+============ sort and count =====================
+db.students.find().count() => Gives the students count
+db.students.find().limit(2) => Limit records count
+db.students.find({}, {"name": "Harish"}).sort({"usn": 1}) => ASC order
+db.students.find({}, {"name": "Harish"}).sort({"usn": -1})  => DES order
+
+
+================ update ==============
+db.students.updateOne({"usn": "ABC"}, {$set: {"usn": "123"}})
+
+================ Delete =================
+db.students.deleteOne({"usn": "123"}) =>  Delete document
+
+
+
+
+
