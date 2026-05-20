@@ -42,7 +42,7 @@ Movies-Catalog-Project │ ├── movies-catalog-api   (Backend - Node.js + E
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the repository
-git clone https://github.com/your-username/your-repo-name.git⁠�
+git clone  https://github.com/shravanik1509/MERN-Movie-Project.git
 
 ---
 
@@ -74,10 +74,9 @@ npm start
 ---
 
 ## 📸 Screenshots
-<img width="1920" height="1080" alt="Screenshot 2026-05-20 200558" src="https://github.com/user-attachments/assets/3163f128-93fa-49f0-bec9-9a63fab40eb7" />
-<img width="1920" height="1080" alt="Screenshot 2026-05-20 200542" src="https://github.com/user-attachments/assets/25910745-a053-40b9-a2f7-16e5c69f4dd3" />
 <img width="1920" height="1080" alt="Screenshot 2026-05-20 200527" src="https://github.com/user-attachments/assets/a1aa3bbd-683e-499f-aa44-88777bc6c22e" />
-
+<img width="1920" height="1080" alt="Screenshot 2026-05-20 200542" src="https://github.com/user-attachments/assets/25910745-a053-40b9-a2f7-16e5c69f4dd3" />
+<img width="1920" height="1080" alt="Screenshot 2026-05-20 200558" src="https://github.com/user-attachments/assets/3163f128-93fa-49f0-bec9-9a63fab40eb7" />
 
 ---
 
